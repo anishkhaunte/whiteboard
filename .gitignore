@@ -57,3 +57,25 @@ typings/
 # dotenv environment variables file
 .env
 
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*~
+.idea
+.vagrant
+*.rdb
+pids
+logs
+results
+utils/rendered
+uploads
+lib-cov
+npm-debug.log
+node_modules
+
+config/*
+!config/template.json
