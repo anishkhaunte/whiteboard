@@ -18,26 +18,26 @@
   deploy : {
     development : {
       user : "ubuntu",
-      host : "52.77.98.145",
+      host : "",
       ref  : "origin/develop",
-      repo : "github:carryage/tempogo-api.git",
-      path : "~/tempogo/api",
+      repo : "",
+      path : "",
       "post-deploy" : "./build.sh development"
     },
     staging : {
       user : "ubuntu",
-      host : "52.74.85.231",
+      host : "",
       ref  : "origin/staging",
-      repo : "github:carryage/tempogo-api.git",
-      path : "~/tempogo/api",
+      repo : "",
+      path : "",
       "post-deploy" : "./build.sh staging"
     },
     production : {
       user : "ubuntu",
-      host : "52.74.202.38",
+      host : "",
       ref  : "origin/master",
-      repo : "github:carryage/tempogo-api.git",
-      path : "~/tempogo/api",
+      repo : "",
+      path : "",
       "post-deploy" : "./build.sh production"
     }
   }
