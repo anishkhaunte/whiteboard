@@ -1,0 +1,14 @@
+* { 
+   margin: 0;
+   padding: 0;
+}
+body, html{
+   width: 100%;
+   height: 90%;
+}
+button-width {
+    width: 10%; /* make the children equal */
+}
+#canvas {
+   display: block;
+}s
