@@ -89,8 +89,8 @@ document.addEventListener("DOMContentLoaded", function() {
            }).then(function(user){
               appLocalStorage.setLocalStorage(user)
               if(user.data.user.role == 1){
-                showErase()
-                showNotification()
+                showAdminComponents()
+                showPendingList()
               } else {
                 showRequest()
               }
