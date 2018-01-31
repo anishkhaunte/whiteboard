@@ -1,8 +1,8 @@
 # whiteboard
 Whiteboard application written in nodejs , socket
 
-* Make sure Node.js and NPM installed.
-* Install mongo, pm2.
+* Install NVM(For versioning of node) and install nodejs version > 6 using nvm.
+* Install mongo, pm2 globally.
 * Clone.
 * run 'npm install' to install all dependencies
 * copy config/template.json contents to new file config/development.json and fill in the config details
